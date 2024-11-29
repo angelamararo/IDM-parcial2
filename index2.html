@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descripción</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilos.css"> 
+</head>
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-sm sticky-top bg-secondary text-light my-4">
+            <div class="container">
+                <div class="navbar-brand text-light text-uppercase">
+                    <h1>Tus Comics Favoritos</h1>
+                </div>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#barraNavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="barraNavegacion">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hulk Card -->
+        <div class="card border-2 border-danger mb-3 mx-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="img/hulk2.png" class="img-fluid rounded-start p-3" alt="Imagen de Hulk mostrando su fuerza">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h2 class="card-title text-light text-uppercase">Hulk</h2>
+                        <p class="card-text">Bruce Banner</p>
+                        <p class="card-text"><small class="text-body-secondary">Decidido a hacer algo bueno en el mundo y aceptando su convivencia con Hulk, Bruce ha decidido aliarse con SHIELD. Es así que comienzan una serie de misiones que lo llevarán al espacio, a Asgard.</small></p>
+                        <p class="card-text">Autor: Mark Waid</p>
+                        <p class="card-text">Publicación original: 2013 - 2014.</p>
+                        <p class="card-text">Ideal para: Fans de Hulk, coleccionistas de Marvel y amantes de los cómics de superhéroes cargados de acción y profundidad emocional.</p>
+                        <div class="button">
+                            <a href="img/hulk3.png" target="_blank" role="button" class="btn btn-danger my-2">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Capitán América Card -->
+        <div class="card border-2 border-danger mb-3 mx-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="img/capitan3.png" class="img-fluid rounded-start p-3" alt="Imagen del Capitán América luchando con el escudo">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h2 class="card-title text-light text-uppercase">Cápitan América</h2>
+                        <p class="card-text">Steve Rogers</p>
+                        <p class="card-text"><small class="text-body-secondary">"Los tres nuevos Guerreros" El Capitán América, Spider-Man y Thor están atrapados en una dimensión espejo que alberga los días de gloria de Broxton, y los fantasmas de los fracasos de Thor están listos para vengarse.</small></p>
+                        <p class="card-text">Autor: J. Michael Straczynski</p>
+                        <p class="card-text">Publicación original: 2023</p>
+                        <p class="card-text">Ideal para: Fans de Capitán América, Spiderman y Thor, y coleccionistas de Marvel.</p>
+                        <div class="button">
+                            <a href="img/cap4.png" target="_blank" role="button" class="btn btn-danger my-2">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Spiderman Card -->
+        <div class="card border-2 border-danger mb-3 mx-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="img/spiderman.png" class="img-fluid rounded-start p-sm-3" alt="Spiderman en su traje clásico lanzando telaraña">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h2 class="card-title text-light text-uppercase">Spiderman</h2>
+                        <p class="card-text">Peter Parker</p>
+                        <p class="card-text"><small class="text-body-secondary">"Esta vez, Spiderman se enfrenta a villanos clásicos como Electro y el Lagarto, y se enfrenta al regreso de uno de sus primeros enemigos: ¡el Buitre! Además: Spider-Man vs. el Cerebro Viviente, la pelea de Peter Parker con Flash Thompson."</small></p>
+                        <p class="card-text">Autor: Todd Desago</p>
+                        <p class="card-text">Publicación original: 2022.</p>
+                        <p class="card-text">Ideal para: Fans de Spiderman, coleccionistas de Marvel y amantes de los cómics de superhéroes cargados de acción y profundidad emocional.</p>
+                        <div class="button">
+                            <a href="img/spider_man2.png" target="_blank" role="button" class="btn btn-danger my-2">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Alert -->
+        <div class="alert alert-danger alert-dismissible fade show mx-3 my-3" role="alert">
+            <strong>La casa del Comics </strong> Finalizada la compra, te enviaremos el link de descarga.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-center text-light">
+        <span class="text-light fs-3">Autor</span>
+        <div class="text-center p-3">
+            <ul>
+                <li>Angela Rodriguez</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

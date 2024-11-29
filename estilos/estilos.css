@@ -1,0 +1,116 @@
+body {
+    background-color: #eecadb;
+}
+
+header {
+    background-color: #79093c;
+}
+
+h2, h3 {
+    background-color: #79093c;
+    width: 100%;
+    color: white;
+}
+
+.card {
+    max-width: 400px;
+    text-align: center;
+}
+
+footer {
+    background-color: #79093c;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+.autor {
+    background-image: url(../img/autor.png);
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid #79093c;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#comics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+}
+
+#comics div {
+    padding: 1.5em;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 500px;
+    border: 3px solid whitesmoke;
+    background-color: #79093c;
+    box-sizing: border-box;
+}
+
+#comics h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.5em 0;
+    word-wrap: break-word;
+}
+
+#comics img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+    .card {
+        max-width: 700px;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    #comics {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    #comics div {
+        padding: 1.5em;
+        margin: 1rem auto;
+        width: 100%;
+        max-width: 500px;
+        border: 3px solid #79093c;
+        background-color: #79093c;
+        box-sizing: border-box;
+    }
+
+    #comics h3 {
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0.5em 0;
+        word-wrap: break-word;
+    }
+
+    #comics img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        max-width: 1000px;
+    }
+}
